@@ -16,7 +16,19 @@ object-fit:cover;
 height:250px;
 }
 }
+@media(max-width:576px){
 
+    .navbar-brand{
+        max-width:75%;
+    }
+
+    .navbar-brand div{
+        overflow:hidden;
+        white-space:nowrap;
+        text-overflow:ellipsis;
+    }
+
+}
 /* Navbar */
 
 .navbar-dark .navbar-nav .nav-link{
