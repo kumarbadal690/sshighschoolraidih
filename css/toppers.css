@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fb
+}
+
+
+.hero {
+    background: #0d6efd;
+    color: #fff;
+    padding: 20px;
+    text-align: center
+}
+
+.section-title {
+    color: #0d6efd;
+    font-weight: 700;
+    margin: 40px 0
+}
+
+
+.topper-card:hover {
+    transform: translateY(-6px)
+}
+
+
+.topper-card{
+    border:none;
+    border-radius:15px;
+    overflow:hidden;
+        transition: .3s
+
+}
+
+.topper-img{
+    width:100%;
+    height:250px;
+    object-fit:contain;
+    object-position:center;
+    background:#fff;
+    padding:12px;
+    border-bottom:1px solid #eee;
+    /* border-radius:30%; */
+}
+
+
+
+
+
+
+
+
+.rank {
+    position: absolute;
+    top: 10px;
+    right: 10px
+}
+
+.stats {
+    background: #0d6efd;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center
+}

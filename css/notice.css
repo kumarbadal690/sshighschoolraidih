@@ -1,0 +1,21 @@
+
+@keyframes blink {
+  0%   { background-color: #28a745; }  /* Bootstrap green */
+  50%  { background-color: #ff0707; }  /* Bootstrap yellow */
+  100% { background-color: #28a745; }  /* Back to green */
+}
+
+.badge-new {
+  animation: blink 2s infinite;
+  color: #fff;  /* Text color */
+  text-decoration-line: none;
+}
+.list-group-item a {
+    text-decoration: none;  /* Underline remove */
+    color: inherit;          /* Badge aur li ka color maintain */
+}
+
+.list-group-item a:hover {
+    text-decoration: none;  /* Hover me bhi underline na aaye */
+    color: #5900ff;             /* Hover me optional color */
+}
